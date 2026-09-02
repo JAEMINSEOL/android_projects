@@ -1,0 +1,32 @@
+{
+  "trained_at": "2026-06-13 02:27:58",
+  "n_features": 26,
+  "cv_accuracy_mean": 0.5414012738853502,
+  "cv_accuracy_std": 0.07774351279278882,
+  "cv_fold_scores": [
+    0.5796178343949044,
+    0.6526212640862322,
+    0.5683488486036257,
+    0.445859872611465,
+    0.46055854973052424
+  ],
+  "classes": {
+    "0": "매도",
+    "1": "관망",
+    "2": "매수"
+  },
+  "threshold": {
+    "매수": "+1.5%",
+    "매도": "-1.5%"
+  },
+  "excluded_tickers": [
+    "114800",
+    "252670"
+  ],
+  "files": {
+    "model": "xgb_model.json",
+    "features": "feature_columns.json",
+    "scaler": "scaler.pkl",
+    "fi": "feature_importance.csv"
+  }
+}
